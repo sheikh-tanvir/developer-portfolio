@@ -115,7 +115,8 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-main section{
+
+main section {
   margin-top: 130px;
 }
 
@@ -166,4 +167,27 @@ main section{
 
 .skill-description {
   color: #757575;
+}
+
+/* Resume Section Styles */
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-container-section{
+  display: flex;
+  gap: 50px;
+}
+.resume-item-title{
+  color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.resume-item-institute, .resume-item-description{
+  color: #757575;
+}
+.resume-container hr{
+  margin: 30px;
 }
